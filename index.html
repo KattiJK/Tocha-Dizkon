@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Tocha Dizkon</title>
+   <link rel="stylesheet" href="./fonts/gilroy/stylesheet.css" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Nunito+Sans&display=swap" rel="stylesheet">
+<link rel="icon" href="./img/footer/logo.svg" type="image/icon">
+<link rel="shortcut icon" href="./img/footer/logo.svg" type="image/icon">
+<link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+   <div class="wrapper">
+      <header class="header lock-padding" id="header">
+         <div class="header__container _container">
+            <a href="#" class="header__logo">
+               <svg width="93" height="43" viewBox="0 0 93 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M36.3406 33.4383L92.0367 42.6913L55.5014 16.2787L53.4452 24.4788L39.8191 26.6618L36.3406 33.4383Z" fill="#685ED6"/>
+                  <path d="M92.0374 42.6908L46.058 17.4339L0.559244 14.1293L92.0374 42.6908Z" fill="#18E1F7"/>
+                  <path d="M55.5006 16.2786L92.0359 42.6912L64.1596 2.04479L55.5006 16.2786Z" fill="#18E1F7"/>
+                  </svg>
+                  
+                  <span>tocha</span>
+            </a>
+            <div class="header__burger">
+               <span></span>
+            </div>
+            <div class="header__actions">
+               <a href="#popup" class="header__button button button_light popup-link">Вход</a>
+               <a href="#popup_2" class="header__button button button_dark popup-link">Регистрация</a>
+            </div>
+         </div>
+      </header>
+
+      <div  id="popup" class="popup">
+         <div class="popup__body">
+            <div class="popup__content">
+               <a href="#header" class="popup__close close-popup"><img src="./img/popup-close.svg" alt=""></a>
+               <div class="popup__title">Вход</div>
+               <form class="popup__form">
+                  <input type="tel" autocomplete="off" required name="form[]" placeholder="Телефон" class="tel__input input-popup">
+                  <input type="password" autocomplete="off" required name="form[]" placeholder="Пароль" class="password__input input-popup">
+                  <button type="submit" class="enter__button">Войти</button>
+               </form>
+            </div>
+         </div>  
+      </div>
+      <div  id="popup_2" class="popup">
+         <div class="popup__body">
+            <div class="popup__content">
+               <a href="#header" class="popup__close close-popup"><img src="./img/popup-close.svg" alt=""></a>
+               <div class="popup__title">Регистрация</div>
+               <form class="popup__form">
+                  <input type="tel" autocomplete="off" required name="form[]" placeholder="Телефон" class="tel__input input-popup">
+                  <input type="email" autocomplete="off" required name="form[]" placeholder="Электронная почта" class="email__input input-popup">
+                  <input type="password" autocomplete="off" required name="form[]" placeholder="Пароль" class="password__input input-popup">
+                  <input type="password" autocomplete="off" required name="form[]" placeholder="Повторите пароль" class="password__input input-popup">
+                  <button type="submit" class="enter__button button">Войти</button>
+               </form>
+            </div>
+         </div>  
+      </div>
+
+      <main class="page">
+         <section class="page__main main">
+            <div class="main__container _container">
+               <div class="main__content">
+                  <div class="main__header header-main">
+                     <h1 class="header-main__title"><span>Telegram чат </span>на вашем сайте</h1>
+                     <div class="header-main__text">
+                        <p> 
+                           Общение с клиентами станет простым
+                           и удобным, а подключение займет 5 минут.
+                           Первый месяц — <span>бесплатно!</span>
+                        </p>
+                     </div>
+                     <a href="" class="header-main__button button button_dark">Подключить</a>
+                  </div>
+               </div>
+               <div class="main__image">
+                  <img src="./img/ilustration.svg" alt="">
+                  <div class="plane"></div>
+               </div>
+            </div>
+         </section>
+
+         <section class="page__advantages _advantages">
+            <div class="advantages__container _container">
+               <div class="advantages__inner">
+                  <div class="advantages__content">
+                     <h2 class="advantages__title title">Tocha Online — это</h2>
+                     <ul class="advantages__list">
+                        <li class="advantages__item">
+                           <div class="advantages__icon">
+                              <svg width="68" height="68" viewBox="0 0 68 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <g clip-path="url(#clip0_1_1352)">
+                                 <path d="M65.3643 2.571C64.7393 1.94601 63.8297 1.73033 62.9906 2.00803L18.1169 16.8606C16.8943 17.2652 17.5201 19.1564 18.7429 18.7517L63.6165 3.89921C63.9289 3.86654 64.0687 4.00638 64.0361 4.31875L45.0002 61.8315C44.852 62.2793 44.2277 62.3167 44.0269 61.8898L36.3401 45.5364L39.9868 39.6502C40.6651 38.5555 38.9716 37.5064 38.2933 38.6012L34.684 44.4272L25.6795 43.6646L50.588 18.756L41.0564 34.1414C40.3781 35.2361 42.0716 36.2853 42.7498 35.1904L56.808 12.4985C57.35 11.6253 56.3073 10.5855 55.4352 11.1282L22.4508 31.6468L6.03902 23.9101C5.61257 23.7091 5.65029 23.0853 6.09785 22.937L13.7555 20.4025C14.9782 19.9979 14.3522 18.1067 13.1296 18.5114L5.47193 21.0459C3.35803 21.7455 3.17542 24.7626 5.18958 25.7121L21.5699 33.4339L22.4663 44.5561C22.505 45.0377 22.8962 45.4251 23.3751 45.4686L34.5519 46.4152L42.224 62.7372C43.1667 64.7426 46.1923 64.57 46.8914 62.4574L65.9273 4.9448C66.2051 4.10559 65.9893 3.19612 65.3643 2.571ZM24.2789 42.2478L23.6429 34.3557L23.5582 33.3041L49.1303 17.3966L24.2789 42.2478Z" fill="#685ED6"/>
+                                 <path d="M19.5063 47.8883C19.1111 47.5055 18.4805 47.5157 18.0979 47.9108L0.283634 66.3077C-0.610294 67.2307 0.815661 68.622 1.71464 67.6936L19.5289 49.2968C19.9117 48.9016 19.9016 48.271 19.5063 47.8883Z" fill="#685ED6"/>
+                                 <path d="M25.9022 47.9152L11.8224 62.5776C10.9329 63.5038 12.3632 64.8904 13.2592 63.9575L27.3391 49.2951C28.2311 48.3661 26.7944 46.9864 25.9022 47.9152Z" fill="#685ED6"/>
+                                 <path d="M4.31934 56.3827C4.58097 56.3827 4.84233 56.2801 5.03796 56.0765L19.1177 41.4142C20.0098 40.4852 18.5729 39.1055 17.6808 40.0343L3.60098 54.6967C3.02738 55.294 3.495 56.3827 4.31934 56.3827Z" fill="#685ED6"/>
+                                 </g>
+                                 <defs>
+                                 <clipPath id="clip0_1_1352">
+                                 <rect width="68" height="68" fill="white"/>
+                                 </clipPath>
+                                 </defs>
+                                 </svg>
+                                 
+                                 
+                           </div>
+                           <div class="advantages__body">
+                              <h4 class="advantages__item-title">Ничего лишнего</p>
+                              <p class="advantages__item-text">Отсутствие лишних приложений для операторов. Оператору не нужно учиться работать с чатом</p>
+                           </div>
+                        </li>
+                        <li class="advantages__item">
+                           <div class="advantages__icon">
+                              <svg width="68" height="68" viewBox="0 0 68 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M27.6251 15.2193H21.0195L34.0001 0.519592L46.9806 15.2182H40.3751V39.3125H38.2501V13.0943H42.2695L34.0001 3.73047L25.7306 13.0943H29.7501V39.3125H27.6251V15.2193ZM15.9376 41.4375H52.0626V66.9375H15.9376V41.4375ZM49.9376 43.5625H38.2501V64.8125H49.9376V43.5625ZM24.4376 45.1648C24.4376 45.4527 24.6724 45.6875 24.9603 45.6875H29.2273C29.5153 45.6875 29.7501 45.4527 29.7501 45.1648V43.5625H24.4376V45.1648ZM18.0626 64.8125H36.1251V43.5625H31.8751V45.1648C31.8751 46.6247 30.6872 47.8125 29.2273 47.8125H24.9603C23.5005 47.8125 22.3126 46.6247 22.3126 45.1648V43.5625H18.0626V64.8125ZM9.56258 66.9375H11.6876V31.875H9.6104L14.8751 25.1058L20.1398 31.875H18.0626V39.3125H20.1876V34H24.4854L14.8751 21.6442L5.26477 34H9.56258V66.9375ZM47.8126 28.6875V39.3125H49.9376V26.5625H47.8604L53.1251 19.7933L58.3898 26.5625H56.3126V66.9375H58.4376V28.6875H62.7354L53.1251 16.3317L43.5148 28.6875H47.8126Z" fill="#685ED6"/>
+                                 </svg>                                 
+                           </div>
+                           <div class="advantages__body">
+                              <h4 class="advantages__item-title">Простота</p>
+                              <p class="advantages__item-text">Простая установка на сайт</p>
+                           </div>
+                        </li>
+                        <li class="advantages__item">
+                           <div class="advantages__icon">
+                              <svg width="68" height="68" viewBox="0 0 68 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M9.1 53.5564C9.1 51.9023 7.73157 50.5563 6.05 50.5563C4.36843 50.5563 3 51.9023 3 53.5564C3 55.2104 4.36843 56.5564 6.05 56.5564C7.73157 56.5564 9.1 55.2104 9.1 53.5564ZM5.03333 53.5564C5.03333 53.0044 5.4888 52.5564 6.05 52.5564C6.6112 52.5564 7.06667 53.0044 7.06667 53.5564C7.06667 54.1084 6.6112 54.5564 6.05 54.5564C5.4888 54.5564 5.03333 54.1084 5.03333 53.5564ZM3 39.0006C3 40.6546 4.36843 42.0006 6.05 42.0006C7.73157 42.0006 9.1 40.6546 9.1 39.0006C9.1 37.3466 7.73157 36.0005 6.05 36.0005C4.36843 36.0005 3 37.3466 3 39.0006ZM6.05 38.0006C6.6112 38.0006 7.06667 38.4486 7.06667 39.0006C7.06667 39.5526 6.6112 40.0006 6.05 40.0006C5.4888 40.0006 5.03333 39.5526 5.03333 39.0006C5.03333 38.4486 5.4888 38.0006 6.05 38.0006ZM31.4667 47.0007C31.4667 47.5527 31.9221 48.0007 32.4833 48.0007H34.5167C36.1982 48.0007 37.5667 49.3467 37.5667 51.0008C37.5667 52.6548 36.1982 54.0008 34.5167 54.0008V56.0009H32.4833V54.0008C30.8018 54.0008 29.4333 52.6548 29.4333 51.0008H31.4667C31.4667 51.5528 31.9221 52.0008 32.4833 52.0008H34.5167C35.0779 52.0008 35.5333 51.5528 35.5333 51.0008C35.5333 50.4488 35.0779 50.0008 34.5167 50.0008H32.4833C30.8018 50.0008 29.4333 48.6547 29.4333 47.0007C29.4333 45.3467 30.8018 44.0007 32.4833 44.0007V42.0006H34.5167V44.0007C36.1982 44.0007 37.5667 45.3467 37.5667 47.0007H35.5333C35.5333 46.4487 35.0779 46.0007 34.5167 46.0007H32.4833C31.9221 46.0007 31.4667 46.4487 31.4667 47.0007ZM64 53.5564C64 55.2104 62.6316 56.5564 60.95 56.5564C59.2684 56.5564 57.9 55.2104 57.9 53.5564C57.9 51.9023 59.2684 50.5563 60.95 50.5563C62.6316 50.5563 64 51.9023 64 53.5564ZM61.9667 53.5564C61.9667 53.0044 61.5112 52.5564 60.95 52.5564C60.3888 52.5564 59.9333 53.0044 59.9333 53.5564C59.9333 54.1084 60.3888 54.5564 60.95 54.5564C61.5112 54.5564 61.9667 54.1084 61.9667 53.5564ZM60.95 36.0005C62.6316 36.0005 64 37.3466 64 39.0006C64 40.6546 62.6316 42.0006 60.95 42.0006C59.2684 42.0006 57.9 40.6546 57.9 39.0006C57.9 37.3466 59.2684 36.0005 60.95 36.0005ZM60.95 38.0006C60.3888 38.0006 59.9333 38.4486 59.9333 39.0006C59.9333 39.5526 60.3888 40.0006 60.95 40.0006C61.5112 40.0006 61.9667 39.5526 61.9667 39.0006C61.9667 38.4486 61.5112 38.0006 60.95 38.0006ZM55.8667 54.5564V52.5564H53.8333V47.5563H49.7667V49.5563H51.8V54.5564H55.8667ZM55.8667 40.0006V38.0006H51.8V43.0006H49.7667V45.0007H53.8333V40.0006H55.8667ZM11.1333 52.5564V54.5564H15.2V49.5563H17.2333V47.5563H13.1667V52.5564H11.1333ZM17.2333 43.0006H15.2V38.0006H11.1333V40.0006H13.1667V45.0007H17.2333V43.0006ZM29.4333 23.0003V22.5353L29.0999 22.3163C27.5922 21.3263 26.6263 19.7463 26.426 18.0002H25.3667C23.6851 18.0002 22.3167 16.6542 22.3167 15.0002C22.3167 14.2632 22.5993 13.5952 23.0497 13.0722C22.5739 12.1181 22.3167 11.0731 22.3167 10.0001C22.3167 6.14105 25.51 3 29.4333 3H37.5667C41.49 3 44.6833 6.14105 44.6833 10.0001C44.6833 11.0731 44.4261 12.1181 43.9513 13.0732C44.4017 13.5962 44.6833 14.2632 44.6833 15.0002C44.6833 16.6542 43.3149 18.0002 41.6333 18.0002H40.574C40.3737 19.7463 39.4079 21.3273 37.9001 22.3163L37.5667 22.5353V23.0003H52.8167C53.2701 23.0003 53.6849 23.1523 54.0235 23.3993L54.4291 23.0003C55.7396 21.7113 58.0271 21.7113 59.3376 23.0003H59.9333C61.6149 23.0003 62.9833 24.3463 62.9833 26.0004V28.0004C62.9833 29.6544 61.6149 31.0005 59.9333 31.0005H54.85H51.8H42.65V34.9995H44.4505L47.1091 44.1537C47.5239 45.5747 47.7333 47.0487 47.7333 48.5317C47.7333 53.5198 45.3106 58.2869 41.2531 61.2809L38.38 63.4C36.978 64.432 35.2446 65 33.5 65C31.7554 65 30.024 64.434 28.6251 63.404L25.7479 61.2809C21.6894 58.2869 19.2667 53.5208 19.2667 48.5317C19.2667 47.0487 19.4761 45.5747 19.8909 44.1517L22.5485 34.9995H24.35V31.0005H15.2H12.15H7.06667C5.3851 31.0005 4.01667 29.6544 4.01667 28.0004V26.0004C4.01667 24.3463 5.3851 23.0003 7.06667 23.0003H7.66243C8.97292 21.7113 11.2604 21.7113 12.5709 23.0003L12.9766 23.3993C13.3151 23.1523 13.7299 23.0003 14.1833 23.0003H29.4333ZM12.15 29.0004V25.4144L11.1333 24.4143C10.5894 23.8813 9.64392 23.8813 9.1 24.4143L8.50423 25.0004H7.06667C6.50547 25.0004 6.05 25.4484 6.05 26.0004V28.0004C6.05 28.5524 6.50547 29.0004 7.06667 29.0004H12.15ZM42.9184 36.9995H40.212C38.4186 36.9995 36.6832 36.4815 35.1917 35.5035L33.5 34.3935L31.8073 35.5035C30.3168 36.4825 28.5793 36.9995 26.7839 36.9995H24.0826L21.847 44.7017C21.484 45.9467 21.3 47.2347 21.3 48.5317C21.3 52.8938 23.4187 57.0619 26.9679 59.6809L29.8431 61.8029C31.9415 63.346 35.0565 63.348 37.161 61.7989L40.0321 59.6809C43.5813 57.0629 45.7 52.8948 45.7 48.5317C45.7 47.2347 45.516 45.9467 45.1551 44.7037L42.9184 36.9995ZM55.8667 24.4143L54.85 25.4144V29.0004H59.9333C60.4945 29.0004 60.95 28.5524 60.95 28.0004V26.0004C60.95 25.4484 60.4945 25.0004 59.9333 25.0004H58.4958L57.9 24.4143C57.3561 23.8813 56.4106 23.8813 55.8667 24.4143ZM52.8167 25.0004H40.2985H37.5667L33.5 28.4144L29.9298 25.0004H26.7016H14.1833V29.0004H15.2H26.3833V34.9995H26.7839C28.1767 34.9995 29.5238 34.5985 30.6788 33.8395L33.5 31.9885L36.3202 33.8395C37.4762 34.5985 38.8212 34.9995 40.211 34.9995H40.6167V29.0004H51.8H52.8167V25.0004ZM42.65 15.0002C42.65 14.4482 42.1945 14.0002 41.6333 14.0002H40.6167V14.6182V16.0002H41.6333C42.1945 16.0002 42.65 15.5522 42.65 15.0002ZM25.3667 16.0002H26.3833V14.0002H25.3667C24.8055 14.0002 24.35 14.4482 24.35 15.0002C24.35 15.5522 24.8055 16.0002 25.3667 16.0002ZM29.0155 9.4161C29.9905 9.0971 31.0346 9.1681 31.9547 9.62211L33.6078 10.4351C34.3591 10.8051 35.2009 11.0001 36.0417 11.0001C36.8855 11.0001 37.7293 11.1441 38.5254 11.4191L39.4709 11.5978L40.6167 12.0001H41.6333C41.8265 12.0001 42.0136 12.0221 42.1966 12.0561C42.4934 11.4121 42.65 10.7141 42.65 10.0001C42.65 7.24307 40.3696 5.00003 37.5667 5.00003H29.4333C26.6304 5.00003 24.35 7.24307 24.35 10.0001C24.35 10.7141 24.5066 11.4121 24.8024 12.0561C24.9864 12.0221 25.1735 12.0001 25.3667 12.0001H26.5318C26.8673 10.8061 27.7772 9.82211 29.0155 9.4161ZM30.2274 20.6523L30.5608 20.8713C31.1281 21.2433 31.4667 21.8653 31.4667 22.5353V23.5863L33.5 25.5864L35.5333 23.5863V22.5353C35.5333 21.8653 35.8719 21.2433 36.4392 20.8713L36.7727 20.6523C37.9062 19.9083 38.5833 18.6643 38.5833 17.3242V13.6182L38.4766 13.5652C37.7243 13.1952 36.8825 13.0002 36.0417 13.0002C34.8867 13.0002 33.7308 12.7312 32.6979 12.2241L31.0448 11.4111C30.6096 11.1971 30.1155 11.1631 29.6601 11.3131C28.9159 11.5581 28.4167 12.2381 28.4167 13.0082V17.3242C28.4167 18.6643 29.0938 19.9083 30.2274 20.6523Z" fill="#685ED6"/>
+                                 </svg>                                                                
+                           </div>
+                           <div class="advantages__body">
+                              <h4 class="advantages__item-title">Несколько ассистентов</p>
+                              <p class="advantages__item-text">Возможность подключения нескольких ассистентов</p>
+                           </div>
+                        </li>
+                        <li class="advantages__item">
+                           <div class="advantages__icon">
+                              <svg width="68" height="68" viewBox="0 0 68 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M15.7584 28.6505L15.6496 28.433L17.5028 27.5059L17.6115 27.7244C18.0062 28.5148 18.7996 29.0047 19.6832 29.0047C20.5668 29.0047 21.3602 28.5138 21.7549 27.7244L21.8637 27.5059L23.7168 28.433L23.608 28.6515C22.8601 30.1473 21.3561 31.0764 19.6832 31.0764C18.0103 31.0764 16.5053 30.1473 15.7584 28.6505ZM0.00220888 52.8291V51.9238C0.00220888 48.8846 0.837098 45.9387 2.40329 43.3522L0.412403 39.8687C0.000137202 39.1498 -0.106555 38.3118 0.112008 37.509C0.330571 36.7083 0.848492 36.0402 1.56944 35.629C2.03453 35.3617 2.56696 35.2198 3.10974 35.2198C4.2243 35.2198 5.25807 35.8206 5.80914 36.7891L6.80977 38.5397C7.89015 37.7514 9.0648 37.0947 10.3037 36.5881C8.01134 35.4529 6.23902 33.4371 5.42381 31.0163C2.944 30.6331 1.03805 28.4837 1.03805 25.8972V25.2187C1.03805 24.9183 1.06395 24.619 1.11574 24.329L2.8891 14.1259C4.31339 5.94171 11.3758 0.00115967 19.6832 0.00115967C27.9907 0.00115967 35.0531 5.94171 36.4773 14.1259L38.2517 24.331C38.3025 24.619 38.3284 24.9183 38.3284 25.2187V25.8972C38.3284 28.4837 36.4224 30.6331 33.9426 31.0153C33.1274 33.4371 31.3551 35.4529 29.0607 36.5881C35.1701 39.1032 39.3642 45.1515 39.3642 51.9238V52.8291C39.3642 56.8275 36.1106 60.08 32.1133 60.08H29.0058V64.2234H10.3606V60.08H7.25311C3.25475 60.08 0.00220888 56.8275 0.00220888 52.8291ZM11.3965 58.0083H16.5757V54.2938L15.5398 53.258C14.9857 52.7048 14.0223 52.7038 13.4682 53.258L12.8612 53.865H11.3965C10.8247 53.865 10.3606 54.3301 10.3606 54.9008V56.9725C10.3606 57.5432 10.8247 58.0083 11.3965 58.0083ZM7.91708 44.6532L6.1893 45.8051L9.61172 51.7933H10.3606V48.9292L7.91708 44.6532ZM14.504 43.5065H12.4323V51.4473C13.7965 50.4798 15.7988 50.5886 17.0045 51.7922L17.4178 52.2066C17.7628 51.9507 18.1854 51.7933 18.6474 51.7933H26.9341V43.5065H24.8624C24.8624 44.6491 23.9333 45.5782 22.7907 45.5782H16.5757C15.4332 45.5782 14.504 44.6491 14.504 43.5065ZM22.7907 21.7538C22.7907 23.4671 24.185 24.8614 25.8983 24.8614C27.6116 24.8614 29.0058 23.4671 29.0058 21.7538C29.0058 20.0406 27.6116 18.6463 25.8983 18.6463C24.185 18.6463 22.7907 20.0406 22.7907 21.7538ZM22.508 17.8705C20.7222 17.1816 19.1125 16.0578 17.8529 14.5465L16.6368 13.088C16.2898 12.6705 15.7791 12.4313 15.2363 12.4313C14.5403 12.4313 13.9146 12.8176 13.6039 13.4402L13.1678 14.3144L11.6078 14.8344C10.862 15.083 10.3606 15.7791 10.3606 16.5653V17.6374C11.2287 16.9797 12.2977 16.5746 13.4682 16.5746C15.9687 16.5746 18.0611 18.3573 18.5428 20.718H20.8237C21.0536 19.5858 21.6689 18.6039 22.508 17.8705ZM13.4682 18.6463C11.7549 18.6463 10.3606 20.0406 10.3606 21.7538C10.3606 23.4671 11.7549 24.8614 13.4682 24.8614C15.1814 24.8614 16.5757 23.4671 16.5757 21.7538C16.5757 20.0406 15.1814 18.6463 13.4682 18.6463ZM10.3606 26.0184C10.3606 28.5977 12.0045 30.8775 14.4512 31.6928C15.7222 32.1175 16.5757 33.3014 16.5757 34.6408V36.1293L16.8264 37.132C17.1547 38.4464 18.3294 39.3632 19.6832 39.3632C21.0371 39.3632 22.2107 38.4464 22.5401 37.133L22.7907 36.1303V34.6418C22.7907 33.3025 23.6443 32.1175 24.9153 31.6938C27.3619 30.8786 29.0058 28.5987 29.0058 26.0194V25.8713C28.1378 26.5291 27.0688 26.9341 25.8983 26.9341C23.3977 26.9341 21.3053 25.1514 20.8237 22.7907H18.5428C18.0611 25.1514 15.9697 26.9341 13.4682 26.9341C12.2977 26.9341 11.2287 26.5291 10.3606 25.8713V26.0184ZM16.5757 41.4349V43.5065H22.7918L22.7907 41.4349H16.5757ZM26.9341 60.08H19.6832H16.5757H12.4323V62.1517H26.9341V60.08ZM25.8278 37.7441L24.5879 37.4779L24.5486 37.6354C24.3704 38.348 24.0338 38.9809 23.5997 39.5279C24.3414 39.8438 24.8624 40.5792 24.8624 41.4349H29.0058V51.7933H32.7535L34.0752 54.4378L32.2221 55.3649L31.4732 53.865H18.6474V58.0083H19.6832H32.1133C34.9691 58.0083 37.2925 55.6849 37.2925 52.8291V51.9238C37.2925 45.1318 32.4707 39.1684 25.8278 37.7441ZM11.586 34.9142L13.3418 35.6673L14.503 35.4187V34.6418C14.503 34.1954 14.2191 33.7997 13.7945 33.6588C10.5005 32.5608 8.28791 29.4916 8.28791 26.0194V16.5643C8.28791 14.8852 9.35794 13.3998 10.9511 12.8684L11.6958 12.6208L11.7497 12.5141C12.4147 11.1851 13.7499 10.3596 15.2353 10.3596C16.3944 10.3596 17.4862 10.8703 18.2289 11.7621L19.445 13.2206C20.6072 14.6159 22.1309 15.6123 23.8204 16.1406C23.5894 15.7025 23.4143 15.228 23.3294 14.7153C23.1025 13.3563 22.0118 12.4313 20.7191 12.4313V10.3596C23.028 10.3596 24.9795 12.0128 25.3586 14.2906C25.5854 15.6496 26.6772 16.5746 27.97 16.5746H30.0416H31.0775V26.0184C31.0775 29.4906 28.8639 32.5608 25.5709 33.6577C25.1473 33.7986 24.8624 34.1943 24.8624 34.6408V35.4176L26.0236 35.6662L27.7783 34.9132C29.9422 33.9861 31.5737 32.0708 32.1444 29.7878L32.3391 29.0047H33.1481C34.8614 29.0047 36.2557 27.6105 36.2557 25.8972V25.2187C36.2557 25.0416 36.2401 24.8645 36.2101 24.6884L34.4347 14.4812C33.1854 7.29142 26.9807 2.07284 19.6832 2.07284C12.3857 2.07284 6.18101 7.29142 4.92971 14.4812L3.15531 24.6863C3.12424 24.8645 3.1087 25.0416 3.1087 25.2187V25.8972C3.1087 27.6105 4.50294 29.0047 6.21623 29.0047H7.02522L7.21996 29.7889C7.79174 32.0719 9.4232 33.9882 11.586 34.9142ZM7.85597 40.37L10.3606 44.7527V41.4349H14.504C14.504 40.5792 15.025 39.8438 15.7667 39.5279C15.3327 38.9809 14.996 38.348 14.8179 37.6354L14.7785 37.4779L13.5376 37.7441C11.4721 38.1865 9.53507 39.1032 7.85597 40.37ZM2.20959 38.8401L5.15967 44.0027L6.88745 42.8508L4.00988 37.8146C3.73642 37.335 3.07141 37.1548 2.59803 37.4272C2.35564 37.566 2.18369 37.7877 2.11015 38.0549C2.03764 38.3221 2.07286 38.6008 2.20959 38.8401ZM2.07389 52.8291C2.07389 55.6849 4.39729 58.0083 7.25311 58.0083H8.47954C8.36353 57.6831 8.28895 57.3371 8.28895 56.9725V54.9008C8.28895 54.5362 8.36353 54.1902 8.47954 53.865H6.85741L6.10746 55.3638L4.25434 54.4367L5.57711 51.7933H7.22617L3.60487 45.456C2.60425 47.4583 2.07389 49.6615 2.07389 51.9238V52.8291ZM60.6052 23.3977L55.7533 27.3029C55.2199 27.7317 54.5497 27.9689 53.866 27.9689C53.1824 27.9689 52.5111 27.7327 51.9787 27.3029L47.1268 23.3967C44.8262 21.5456 43.5076 18.7851 43.5076 15.8226C43.5076 14.9608 43.6215 14.1031 43.8474 13.2713L46.1417 4.80643L46.8989 4.77536C49.1726 4.6811 51.3707 4.15178 53.433 3.20295L53.866 3.00407L54.299 3.20295C56.3603 4.15178 58.5584 4.68006 60.8331 4.77536L61.5903 4.80643L63.8847 13.2703C64.1105 14.1031 64.2244 14.9608 64.2244 15.8216C64.2244 18.7862 62.9048 21.5467 60.6052 23.3977ZM62.1528 15.8226C62.1528 15.1441 62.0626 14.4677 61.8855 13.8131L59.9837 6.79939C58.2373 6.65955 56.5385 6.27422 54.9019 5.67654V17.6105H52.8302V5.67654C51.1935 6.27422 49.4937 6.65852 47.7483 6.79939L45.8465 13.8141C45.6694 14.4688 45.5793 15.1452 45.5793 15.8226C45.5793 18.1543 46.6172 20.3275 48.4258 21.7829L52.8302 25.3285V19.6822H54.9019V25.3285L59.3063 21.7839C61.1148 20.3285 62.1528 18.1553 62.1528 15.8226ZM59.3487 29.3072L49.7227 38.9343L48.3833 37.595L46.9186 39.0597L49.7227 41.8637L60.8134 30.7719L59.3487 29.3072ZM59.3487 36.5581L49.7227 46.1852L48.3833 44.8459L46.9186 46.3106L49.7227 49.1146L60.8134 38.0228L59.3487 36.5581ZM48.3833 52.0968L46.9186 53.5615L49.7227 56.3655L60.8134 45.2737L59.3487 43.809L49.7227 53.4361L48.3833 52.0968Z" fill="#685ED6"/>
+                                 </svg>                                                                                              
+                           </div>
+                           <div class="advantages__body">
+                              <h4 class="advantages__item-title">Кастомизация</p>
+                              <p class="advantages__item-text">Настройка интерфейса под нужды сайта</p>
+                           </div>
+                        </li>
+
+
+                     </ul>
+                  </div>
+                  <img src="./img/advantages/phone.svg" alt="" class="advantages__img">
+               </div>
+            </div>
+         </section> 
+
+         <section class="page__tariff tariff">
+            <div class="tariff__container _container">
+               <div class="tariff__content">
+                  <div class="header__title header__title-tariff">
+                     <h2 class="tariff__title title">Тарифы</h2>
+                     <h3 class="tariff__subtitle subtitle">Стоимость зависит от трафика сайта</h3>
+                  </div>
+                  <div class="tariff__items slider">
+
+                     <div class="tariff__item item-tariff slider__item">
+                        <h3 class="item-tariff__header">Базовый</h3>
+                        <div class="item-tariff__body">
+                           <div class="item-tariff__title">Менее 1000 посещений в сутки</div>
+                           <div class="item-tariff__price">200₽/месяц</div>
+                           <a href="" class="item-tariff__button button button_dark">Подключить за 200₽</a>
+                        </div>
+                     </div>
+
+                     <div class="tariff__item item-tariff slider__item">
+                        <h3 class="item-tariff__header">Базовый</h3>
+                        <div class="item-tariff__body">
+                           <div class="item-tariff__title">Менее 1000 посещений в сутки</div>
+                           <div class="item-tariff__price">200₽/месяц</div>
+                           <a href="" class="item-tariff__button button button_dark">Подключить за 200₽</a>
+                        </div>
+                     </div>
+                     <div class="tariff__item item-tariff slider__item">
+                        <h3 class="item-tariff__header">Премиум</h3>
+                        <div class="item-tariff__body">
+                           <div class="item-tariff__title">Более 1000 посещений в сутки</div>
+                           <div class="item-tariff__price">500₽/месяц</div>
+                           <a href="" class="item-tariff__button button button_dark">Подключить за 500₽</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <section class="page__steps steps">
+            <div class="steps__container _container">
+               <div class="steps__content">
+                  <div class="header__title header__title-steps">
+                     <h2 class="steps__title title">Всего 3 шага для подключения Telegram чата</h2>
+                  </div>
+                  <div class="steps__items slider-steps">
+                     <div class="steps-item item-steps slider__item">
+                        <div class="item-steps__text">
+                           <div class="item-steps__number">1</div>
+                           <div class="item-steps__name">Telegram bot</div>
+                           <div class="item-steps__description">Вы создаёте Telegram бота для вашего сайта</div>
+                        </div>
+                        <div class="item-steps__img">
+                           <img src="./img/steps/phone_1.svg" alt="">
+                        </div>
+                     </div>
+
+                     <div class="steps-item item-steps item-steps__2 slider__item">
+                        <div class="item-steps__text">
+                           <div class="item-steps__number">2</div>
+                           <div class="item-steps__name">Подключение Tocha</div>
+                           <div class="item-steps__description">Tocha подключает Telegram бота к вашиму сайту</div>
+                        </div>
+                        <div class="item-steps__img item-steps__img-2">
+                           <img src="./img/steps/phone_2.svg" alt="">  
+                        </div>
+                     </div>
+
+                     <div class="steps-item item-steps slider__item">
+                        <div class="item-steps__text">
+                           <div class="item-steps__number">3</div>
+                           <div class="item-steps__name">Telegram-чат</div>
+                           <div class="item-steps__description">Консультант отвечает на вопросы посетителей сайта</div>
+                        </div>
+                        <div class="item-steps__img">
+                           <img src="./img/steps/phone_3.svg" alt="">  
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <section class="page__reviews rewiews">
+            <div class="reviews__container _container">
+               <div class="reviews__content">
+                  <div class="header__title header__title-reviews">
+                     <h2 class="reviews__title title">Отзывы клиентов</h2>
+                  </div>
+                  <div class="reviews__items slider-rewiews">
+                     <div class="reviews__item item-reviews slider__item">
+                        <div class="item-reviews__content">
+                           <h4 class="item-reviews__title">Как же удобно!</h4>
+                           <div class="item-reviews__text">В рамках спецификации современных стандартов, базовые сценарии поведения пользователей, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут преданы социально-демократической анафеме.</div>
+                        </div>
+                        <div class="item-reviews__author">
+                           <img class="item-reviews__img" src="./img/reviews/1.png" alt="">
+                           <div class="author__info info-author">
+                              <div class="info-author__name">Анна Купер</div>
+                              <div class="info-author__email">romashka.ru</div>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="reviews__item item-reviews slider__item">
+                        <div class="item-reviews__content">
+                           <h4 class="item-reviews__title">Теперь мы идем в ногу со временем</h4>
+                           <div class="item-reviews__text">А ещё интерактивные прототипы превращены в посмешище, хотя само их существование приносит несомненную пользу обществу. Банальные, но неопровержимые выводы, а также тщательные исследования конкурентов формируют сеть.</div>
+                        </div>
+                        <div class="item-reviews__author">
+                           <img class="item-reviews__img" src="./img/reviews/2.png" alt="">
+                           <div class="author__info info-author">
+                              <div class="info-author__name">Андрей Васильев</div>
+                              <div class="info-author__email">samogon-ont.ru</div>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="reviews__item item-reviews slider-rewiews__item">
+                        <div class="item-reviews__content">
+                           <h4 class="item-reviews__title">Как же удобно!</h4>
+                           <div class="item-reviews__text">В рамках спецификации современных стандартов, базовые сценарии поведения пользователей, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут преданы социально-демократической анафеме.</div>
+                        </div>
+                        <div class="item-reviews__author">
+                           <img class="item-reviews__img" src="./img/reviews/3.png" alt="">
+                           <div class="author__info info-author">
+                              <div class="info-author__name">Антон Купер</div>
+                              <div class="info-author__email">anton.ru</div>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="reviews__item item-reviews slider-rewiews__item">
+                        <div class="item-reviews__content">
+                           <h4 class="item-reviews__title">Как же удобно!</h4>
+                           <div class="item-reviews__text">А ещё интерактивные прототипы превращены в посмешище, хотя само их существование приносит несомненную пользу обществу. Банальные, но неопровержимые выводы, а также тщательные исследования конкурентов формируют сеть.</div>
+                        </div>
+                        <div class="item-reviews__author">
+                           <img class="item-reviews__img" src="./img/reviews/4.png" alt="">
+                           <div class="author__info info-author">
+                              <div class="info-author__name">Екатерина Лапа</div>
+                              <div class="info-author__email">ekaterina.ru</div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <section class="page__email email">
+            <div class="email__container _container">
+               <div class="email__inner">
+                  <img class="email__image" src="./img/email/email.svg" alt="">
+                  <div class="email__content">
+                     <div class="header__title header__title-email">
+                        <h2 class="email__title title">Подключите Telegram чат уже сегодня</h2>
+                     </div>
+                     <form class="email__form">
+                        <input type="email" autocomplete="off" required name="form[]" placeholder="Введите e-mail" class="email__input">
+                        <button type="submit" class="email__button">Отправить</button>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </section> 
+      </main>
+
+      <footer class="footer">
+         <div class="footer__main main-footer">
+            <div class="main-footer__container _container">
+               <div class="main-footer__column">
+                  <a href="" class="main-footer__logo">
+                     <img src="./img/footer/logo.svg" alt="">
+                     <span>tocha</span>
+                  </a>
+               </div>
+               <div class="main-footer__column">
+                  <div class="main-footer__label">Telegram чат</div>
+                  <nav class="main-footer__menu menu-footer">
+                     <ul class="menu-footer__list">
+                        <li class="menu-footer__item">
+                           <a href="#" class="menu-footer__link">О нас</a>
+                        </li>
+                        <li class="menu-footer__item">
+                           <a href="#" class="menu-footer__link">Партнеры</a>
+                        </li>
+                        <li class="menu-footer__item">
+                           <a href="#" class="menu-footer__link">Инструкция</a>
+                        </li>
+                        <li class="menu-footer__item">
+                           <a href="#" class="menu-footer__link">Цены</a>
+                        </li>
+                        <li class="menu-footer__item">
+                           <a href="#" class="menu-footer__link">Контакты</a>
+                        </li>
+                     </ul>
+                  </nav>
+               </div>
+               <div class="main-footer__column">
+                  <div class="main-footer__label">Поддержка</div>
+                  <nav class="main-footer__menu menu-footer">
+                     <ul class="menu-footer__list">
+                        <li class="menu-footer__item">
+                           <a href="#" class="menu-footer__link">Центр поддержки</a>
+                        </li>
+                        <li class="menu-footer__item">
+                           <a href="#" class="menu-footer__link">Политика конфеденциальности</a>
+                        </li>
+                        <li class="menu-footer__item">
+                           <a href="#" class="menu-footer__link">Документы оферта</a>
+                        </li>
+                        <li class="menu-footer__item">
+                           <a href="#" class="menu-footer__link">Документы оферта</a>
+                        </li>
+                        <li class="menu-footer__item">
+                           <a href="#" class="menu-footer__link">Статус</a>
+                        </li>
+                     </ul>
+                  </nav>
+               </div>
+            </div>
+         </div>
+         <div class="footer__bottom bottom-footer">
+            <div class="bottom-footer__container _container">
+               <div class="bottom-footer__copy">© 2021 Tocha. Все права защищены</div>
+            </div>
+         </div>
+      </footer> 
+   </div>
+   
+   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+   <script src="js/slick.min.js"></script>
+   <script src="./js/script.js"> </script>
+</body>
+</html>
